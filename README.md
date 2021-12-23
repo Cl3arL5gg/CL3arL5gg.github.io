@@ -1,2 +1,2 @@
 "# CL3arL5gg.github.io" 
-# permalink:
+permalink: /test.html
