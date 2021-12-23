@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src:
+        url(../custom-fonts/Minecraftia-Regular.eot);
+    src:
+        url(../custom-fonts/Minecraftia-Regular.ttf)
+        format('truetype');
+}
+
+body {
+    word-wrap: break-word;
+    line-height: 5px;
+    background-image: url(../images/grass.png);
+    background-size: cover;
+    font-family: Minecraftia;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+div#navbar {
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+span#navbar {
+    position: relative;
+    top: 25px;
+    text-shadow: 1px 2px 2px #a1b1c1;
+}
+a#text1:hover {
+    font-size: 20px;
+}
