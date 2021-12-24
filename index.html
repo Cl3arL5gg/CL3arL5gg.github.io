@@ -37,7 +37,7 @@
             </span>
         </div>
         <div id="contents">
-            <h1 style="margin-bottom: 50px; position: relative; right: 15vw;">Welcome to ForkX's Survival!</h1>
+            <h1 style="margin-bottom: 50px; position: relative; right: 15vw;">Welcome to ForkX's Survival!</h1>&nbsp;&nbsp;<p style="position: absolute; top: 165px; left: 340px;" id="domotd"></p>
             We are a small Minecraft Survival Multiplayer server community that aims to have a no-grief friendly Survival community!
             <br><br>
             <h3>We have:</h3>
@@ -49,3 +49,9 @@
         </div>
     </body>
 </html>
+<script>
+    const motd = ["your mom", "you suck at life", "you are the best", "you haven't played this server yet", "MINECRAFT", "please click on the buttons as described"];
+    const selector = Math.floor(Math.random() * motd.length);
+    // document.getElementById("domotd").innerHTML = selector, motd[selector];
+    document.getElementById("domotd").innerHTML = 'MOTD: ' + motd[selector];
+</script>
