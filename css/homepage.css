@@ -38,6 +38,15 @@ div#navbar {
     top: 0px;
     bottom: 0px;
 }
+div#logo {
+    background-image: url(../images/YOUNOOB.png);
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 43px;
+    left: 95.1683748169839vw;
+}
 span#navbar {
     position: relative;
     top: 10px;
@@ -51,6 +60,7 @@ a#text2:hover {
 a#text3:hover {
     color: #f3ff11
 }
+
 div#contents {
     background-color: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.8);
