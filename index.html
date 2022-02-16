@@ -1,18 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="EN">
+
 	<head>
+	
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:url" content="https://forkx.cf/">
 		<meta property="og:title" content="dimensionone's website">
 		<meta property="og:description" content="idk">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
 	</head>
+	
 	<body>
+	
 		<div id="header">
-			<img src="https://upload.wikimedia.org/wikipedia/en/4/49/Creeper_%28Minecraft%29.png" class="creeper">
+		
+			<img src="https://upload.wikimedia.org/wikipedia/en/4/49/Creeper_%28Minecraft%29.png" class="creepercompact">
+			<img src="https://upload.wikimedia.org/wikipedia/en/4/49/Creeper_%28Minecraft%29.png" class="creeper1">
+			<img src="https://upload.wikimedia.org/wikipedia/en/4/49/Creeper_%28Minecraft%29.png" class="creeper2">			
+			
 			<h1 style="font-size: 40px;">Dimension1's stupid website</h1>
-			<p style="position: relative; bottom: 20px;">Welcome!</p>
+			<p style="position: relative; bottom: 20px;" id="random">Welcome!</p>
+			
 		</div>
+		
 	</body>
+	
 </html>
+
+<script>
+			
+	let main = document.getElementById('random');
+	const array = ['Welcome to my webpage.', 'hi', 'Welcome!', 'Welcome?', 'Welcome..?'];
+	let rand = Math.floor(Math.random() * array.length);
+			
+	main.innerHTML = array[rand];
+			
+</script>
