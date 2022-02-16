@@ -1,15 +1,26 @@
 /* fonts */ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@font-face {
+    font-family: 'Minecraftia';
+    src:
+        url(../custom-fonts/Minecraftia-Regular.eot);
+    src:
+        url(../custom-fonts/Minecraftia-Regular.ttf)
+        format('truetype');
+}
 
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Minecraftia';
 	background-color: #a0a0a0;
 	background-image: url(../images/grass.png);
-	background-size: repeat;
-	background-size: 3%;
+	background-size: cover;
 	text-shadow: 0px .6px gray;
 	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
 }
 
 #header {
@@ -22,11 +33,25 @@ body {
 	width: -1vw;
 	margin: inherit auto 10px auto;
 	padding: 1px 5px 1px 5px;
-    text-shadow: 0 -.6px gray; color: #dddddd;
-	-webkit-text-shadow: 0 -.6px gray; color: #dddddd;
-	-o-text-shadow: 0 -.6px gray; color: #dddddd;
-	-moz-text-shadow: 0 -.6px gray; color: #dddddd;
-	-ms-text-shadow: 0 -.6px gray; color: #dddddd;
+    text-shadow: 0 -.6px #808080, 0 .6px 1px #d0d0d0;
+	-webkit-text-shadow: 0 -.6px #808080, 0 .6px #a0a0;
+	-o-text-shadow: 0 -.6px #808080, 0 .6 #a0a0a0;
+	-moz-text-shadow: 0 -.6px #808080, 0 .6 #a0a0a0;
+	-ms-text-shadow: 0 -.6px #808080, 0 .6 #a0a0a0;
+	color: #a0a0a0;
 	border-radius: 0px 0px 10px 10px;
 	border-bottom: 2px solid #a0a0a0;
+}
+
+@media screen and (max-width: 1250px) {
+	.creeper {
+		display: none;
+	}
+}
+
+.creeper {
+	max-width: 80px;
+	position: fixed;
+	right: 75vw;
+	transform: scaleX(-1) rotate(.03turn) translate(0px, 10px);
 }
