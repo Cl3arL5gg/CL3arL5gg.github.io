@@ -125,10 +125,10 @@ h1 {
 	background-image: -moz-linear-gradient();
 	background-image: -ms-linear-gradient();
 	max-width: 500px;
-	color: #ffffff;
+	color: #bebebe;
 	border-radius: 10px;
 	border: 2px solid rgba(42, 157, 244, 0.7);
-	text-shadow: 0 .6px #555555;
+	text-shadow: 0 -.6px #dcdcdc;
 	margin: 10% auto auto auto;
 	transition: border .1s, transform .1s, box-shadow .1s;
 	-webkit-transition: border .1s, transform .1s;
@@ -147,6 +147,7 @@ h1 {
 	max-width: 500px;
 	color: #ffffff;
 	transform: translateY(-3px);
+	text-shadow: 0 .6px #a0a0a0;
 	border: 5px solid rgba(42, 157, 244, 0.7);
 	box-shadow: 0 6px 10px 1px #000000;
 	box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
