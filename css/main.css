@@ -31,12 +31,12 @@ h1 {
 
 #header {
 	
-	background: #aaaaaa;
-	background-image: linear-gradient(to top, #aaaaaa, #d2d2d2);
-	background-image: -webkit-linear-gradient(to top, #aaaaaa, #d2d2d2);
+	background: #bdbdbd;
+	background-image: linear-gradient(to top, #bdbdbd, #cecece);
+	/* background-image: -webkit-linear-gradient(to top, #aaaaaa, #d2d2d2);
 	background-image: -o-linear-gradient(to top, #aaaaaa, #d2d2d2);
 	background-image: -moz-linear-gradient(to top, #aaaaaa, #d2d2d2);
-	background-image: -ms-linear-gradient(to top, #aaaaaa, #d2d2d2);
+	background-image: -ms-linear-gradient(to top, #aaaaaa, #d2d2d2); */
 	width: -1vw;
 	margin: inherit auto 50px auto;
 	padding: 1px 5px 1px 5px;
@@ -48,6 +48,7 @@ h1 {
 	color: #a0a0a0;
 	border-radius: 0px 0px 10px 10px;
 	border-bottom: 2px solid #969696;
+	border-top: 1px solid #bebebe;
 	box-shadow: 0 6px 10px 1px #000000;
 	box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
 	-webkit-box-shadow: 0 6px 10px 1px #000000;
@@ -116,7 +117,6 @@ h1 {
 
 #block-thing {
 	
-	display: inline-block;
 	padding: 10px 10px;
 	background: #5a5a5a;
 	background-image: linear-gradient(to top, #5a5a5a, #828282);
@@ -127,20 +127,20 @@ h1 {
 	max-width: 500px;
 	color: #bebebe;
 	border-radius: 10px;
-	border: 2px solid rgba(42, 157, 244, 0.7);
+	border: px solid rgba(42, 157, 244, 0.3);
 	text-shadow: 0 -.6px #dcdcdc;
 	margin: 10% auto auto auto;
-	transition: border .1s, transform .1s, box-shadow .1s;
-	-webkit-transition: border .1s, transform .1s;
-	-o-transition: border-width .1s, transform .1s;
-	-moz-transition: border-width .1s, transform .1s;
-	-ms-transition: border-width .1s, transform .1s;
+	transition: border .1s, box-shadow .1s;
+	-webkit-transition: border .1s, box-shadow .1s;
+	-o-transition: border .1s, box-shadow .1s;
+	-moz-transition: border .1s, box-shadow .1s;
+	-ms-transition: border .1s, box-shadow .1s;
+	display: none;
 	
 }
 
 #block-thing:focus {
 	
-	display: inline-block;
 	padding: 10px 10px;
 	background: #464646;
 	background-image: linear-gradient(to bottom, #5a5a5a, #828282);
@@ -159,5 +159,14 @@ h1 {
 	-moz-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
 	-ms-box-shadow: 0 6px 10px 1px #000000;
 	-ms-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
+	
+}
+
+#csmp {
+	
+	padding: 10px 10px;
+	background: #464646;
+	background-color: rgba(73, 73, 73, .7);
+	max-width: 900px;
 	
 }
