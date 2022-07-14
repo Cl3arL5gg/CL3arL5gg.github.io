@@ -32,7 +32,7 @@ h1 {
 #header {
 	
 	background: #bdbdbd;
-	background-image: linear-gradient(to top, #bdbdbd, #cecece);
+	background-image: linear-gradient(365deg, #898989 0%, #cecece 60%);
 	/* background-image: -webkit-linear-gradient(to top, #aaaaaa, #d2d2d2);
 	background-image: -o-linear-gradient(to top, #aaaaaa, #d2d2d2);
 	background-image: -moz-linear-gradient(to top, #aaaaaa, #d2d2d2);
@@ -93,7 +93,7 @@ h1 {
 .creeper1 {
 	
 	max-width: 80px;
-	position: fixed;
+	position: absolute;
 	right: 77vw;
 	transform: scaleX(-1) rotate(.03turn) translate(0px, 10px);
 	
@@ -102,7 +102,7 @@ h1 {
 .creeper2 {
 	
 	max-width: 80px;
-	position: fixed;
+	position: absolute;
 	left: 77vw;
 	transform: rotate(.03turn) translate(0px, 10px);
 	
@@ -115,58 +115,15 @@ h1 {
 	display: none;
 }
 
-#block-thing {
+div#mainstuff {
 	
-	padding: 10px 10px;
-	background: #5a5a5a;
-	background-image: linear-gradient(to top, #5a5a5a, #828282);
-	background-image: -webkit-linear-gradient();
-	background-image: -o-linear-gradient();
-	background-image: -moz-linear-gradient();
-	background-image: -ms-linear-gradient();
-	max-width: 500px;
-	color: #bebebe;
-	border-radius: 10px;
-	border: px solid rgba(42, 157, 244, 0.3);
-	text-shadow: 0 -.6px #dcdcdc;
-	margin: 10% auto auto auto;
-	transition: border .1s, box-shadow .1s;
-	-webkit-transition: border .1s, box-shadow .1s;
-	-o-transition: border .1s, box-shadow .1s;
-	-moz-transition: border .1s, box-shadow .1s;
-	-ms-transition: border .1s, box-shadow .1s;
-	display: none;
-	
-}
-
-#block-thing:focus {
-	
-	padding: 10px 10px;
-	background: #464646;
-	background-image: linear-gradient(to bottom, #5a5a5a, #828282);
-	max-width: 500px;
-	color: #ffffff;
-	transform: translateY(-3px);
-	text-shadow: 0 .6px #a0a0a0;
-	border: 5px solid rgba(42, 157, 244, 0.7);
-	box-shadow: 0 6px 10px 1px #000000;
-	box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
-	-webkit-box-shadow: 0 6px 10px 1px #000000;
-	-webkit-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
-	-o-box-shadow: 0 6px 10px 1px #000000;
-	-o-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
-	-moz-box-shadow: 0 6px 10px 1px #000000;
-	-moz-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
-	-ms-box-shadow: 0 6px 10px 1px #000000;
-	-ms-box-shadow: 0 6px 10px 1px rgba(0, 0, 0, 0.7);
-	
-}
-
-#csmp {
-	
-	padding: 10px 10px;
-	background: #464646;
-	background-color: rgba(73, 73, 73, .7);
-	max-width: 900px;
+	background: #CECECE;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%; /*80vw*/
+	height: 20vw;
+	min-width:0;
+	display:block;
 	
 }
