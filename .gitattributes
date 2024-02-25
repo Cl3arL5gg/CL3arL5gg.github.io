@@ -1,1 +1,2 @@
 minecraft/vids/*.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/Record_2024_02_25_12_06_48_41.mp4 filter=lfs diff=lfs merge=lfs -text
